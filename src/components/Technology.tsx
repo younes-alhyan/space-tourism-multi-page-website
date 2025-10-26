@@ -15,7 +15,7 @@ export default function Technology() {
   }
 
   return (
-    <main className="w-full py-12 px-0 lg:px-12 flex flex-col items-center justify-center">
+    <section className="w-full py-12 px-0 lg:px-12 flex flex-col items-center justify-center">
       <div className="w-full flex items-center justify-center sm:justify-start sm:px-24 gap-4">
         <p className="text-md sm:text-xl text-white/20 font-semibold">03</p>
         <p className="text-md sm:text-xl text-white">SPACE LAUNCH 101</p>
@@ -63,6 +63,6 @@ export default function Technology() {
           </div>
         </div>
       </div>
-    </main>
+    </section>
   );
 }

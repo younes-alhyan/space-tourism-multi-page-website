@@ -13,7 +13,7 @@ export default function Destination() {
   }
 
   return (
-    <main className="w-full py-12 px-0 sm:px-12 flex flex-col items-center justify-center">
+    <section className="w-full py-12 px-0 sm:px-12 flex flex-col items-center justify-center">
       <div className="w-full flex items-center justify-center sm:justify-start sm:px-24 gap-4">
         <p className="text-md sm:text-xl text-white/20 font-semibold">01</p>
         <p className="text-md sm:text-xl text-white">PICK YOUR DESTINATION</p>
@@ -69,6 +69,6 @@ export default function Destination() {
           </div>
         </div>
       </div>
-    </main>
+    </section>
   );
 }

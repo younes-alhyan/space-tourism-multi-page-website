@@ -14,7 +14,7 @@ export default function App() {
   const handleSetActive = (item: NavItem = navItems[0]) => setActive(item);
 
   return (
-    <div className="relative min-h-screen flex flex-col">
+    <main className="relative min-h-screen flex flex-col">
       <img
         src={bgImage}
         alt="background image"
@@ -22,6 +22,6 @@ export default function App() {
       />
       <NavBar active={active} handleSetActive={handleSetActive} />
       <Body active={active} />
-    </div>
+    </main>
   );
 }
