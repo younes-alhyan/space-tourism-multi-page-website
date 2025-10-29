@@ -13,7 +13,7 @@ export default function Crew() {
   }
 
   return (
-    <main className="w-full py-12 px-6 sm:px-12 flex flex-col items-center justify-center">
+    <section className="w-full py-12 px-6 sm:px-12 flex flex-col items-center justify-center">
       <div className="w-full flex items-center justify-center sm:justify-start sm:px-24 gap-4">
         <p className="text-md sm:text-xl text-white/20 font-semibold">02</p>
         <p className="text-md sm:text-xl text-white">MEET YOUR CREW</p>
@@ -63,6 +63,6 @@ export default function Crew() {
           }`}
         />
       </div>
-    </main>
+    </section>
   );
 }

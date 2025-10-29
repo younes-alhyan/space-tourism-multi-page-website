@@ -19,7 +19,7 @@ export default function Home() {
   }
 
   return (
-    <main className="w-full flex flex-col md:flex-row items-center justify-center md:justify-between my-32 md:my-48 md:px-12 lg:px-24">
+    <section className="w-full flex flex-col md:flex-row items-center justify-center md:justify-between my-32 md:my-48 md:px-12 lg:px-24">
       <div className="flex flex-col items-center justify-center text-white text-center md:items-start md:text-left max-w-lg px-6 md:px-0">
         <p className="text-xl font-medium my-2">SO, YOU WANT TO TRAVEL TO</p>
         <h1 className="text-8xl my-4">SPACE</h1>
@@ -38,12 +38,12 @@ export default function Home() {
         <div
           className={`absolute ${
             isHidden ? "hidden" : "block"
-          } h-82 aspect-square rounded-full bg-white/10 ${
+          } h-80 aspect-square rounded-full bg-white/10 ${
             popIn ? "pop-in" : "pop-out"
           }`}
         ></div>
         <p>EXPLORE</p>
       </div>
-    </main>
+    </section>
   );
 }
